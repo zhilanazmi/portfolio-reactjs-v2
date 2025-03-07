@@ -135,14 +135,10 @@ const Resume = () => {
                 </div>
               </div>
               <div className="small_yellow_border_main">
-                <p className="bachelor">FULLSTACK DEVELOPER</p>
-                <p className="cursus university">PT. Alita Praya Mitra / Sept 2024 - Present</p>
+                <p className="bachelor">PT. Timah Industri</p>
+                <p className="cursus university">Fullstack Developer / Feb 2024 - Present</p>
                 <p className="cursus">
-                • Responsible to build Laravel-based logistics management features,
-                Develop solutions that streamline the shipping and stock transfer process, helping
-                businesses achieve efficiencies in stock and shipping management, and
-                Focused on backend development and user interface integration to ensure ease of access
-                and process efficiency in the application system.
+                
                 </p>
               </div>
             </div>
@@ -153,8 +149,8 @@ const Resume = () => {
                 </div>
               </div>
               <div className="small_yellow_border_main">
-                <p className="bachelor">Web Developer</p>
-                <p className="cursus university">Plastic Guardian / Sept 2023 - Sept 2024</p>
+                <p className="bachelor">PT. Alita Praya Mitra</p>
+                <p className="cursus university">Fullstack Developer / Sept 2023 - Sept 2024</p>
                 <p className="cursus">
                 I manage and optimize the Landing Page for responsiveness across devices, provide support and maintenance for web applications, integrate user experience-enhancing features, implement visually appealing designs, and use Git for version control and repository management.
                 </p>
@@ -167,10 +163,10 @@ const Resume = () => {
                 </div>
               </div>
               <div className="small_yellow_border_main">
-                <p className="bachelor">BUMP BURGER</p>
-                <p className="cursus university">Web Developer / Oct 2020 - May 2021</p>
+                <p className="bachelor">Plastic Guardian</p>
+                <p className="cursus university">Web Developer / Sept 2023 - Sept 2024</p>
                 <p className="cursus">
-                I manage and optimize the Landing Page for responsiveness across devices like desktops, tablets, and mobile devices, while providing support and maintenance for existing web applications, troubleshooting issues, and implementing updates. I integrate new features to enhance user experience and develop web applications to help buyers easily discover products available on the website.
+                I manage and optimize the Landing Page for responsiveness across devices, provide support and maintenance for web applications, integrate user experience-enhancing features, implement visually appealing designs, and use Git for version control and repository management.
                 </p>
               </div>
             </div>
