@@ -27,6 +27,9 @@ import BrandLogo5 from "../assets/images/brand-logo5.png";
 import BrandLogo6 from "../assets/images/brand-logo6.png";
 import BrandLogo7 from "../assets/images/brand-logo7.png";
 import BrandLogo8 from "../assets/images/brand-logo8.png";
+import Profile210 from "../assets/images/Profile210.png";
+import Profile478 from "../assets/images/Profile478.png";
+import FullstackLogo from "../assets/images/Fullstack.png";
 import AboutSection from "./About";
 import Resume from "./Resume";
 import Services from "./Services";
@@ -150,7 +153,7 @@ const Home = () => {
       {/* <!-- ====================================== Side Menu ===================================== --> */}
       <div className="side-menu">
         <div className="profile-img-main">
-          <img className="zoom_in" src={ProfileImg} alt="profile-img" />
+          <img className="zoom_in" src={Profile210} alt="profile-img" />
           <h1 className="fade_up">
             Zhillan <span>Azmi</span>
           </h1>
@@ -350,12 +353,12 @@ const Home = () => {
               <img className="flower" src={FlowerImg} alt="flower" />
               <img
                 className="circular-img"
-                src={CircularImg}
+                src={FullstackLogo}
                 alt="circular-img"
               />
               <img
                 className="jessica-main-img zoom_in"
-                src={JessicaMainImg}
+                src={Profile478}
                 alt="jessica-main-img"
               />
               <div className="worked-box">
