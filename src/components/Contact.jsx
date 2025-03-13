@@ -72,7 +72,7 @@ const Contact = () => {
             <div>
               <p className="contact-email-text">EMAIL</p>
               <p className="contact-email">
-                <a href="mailto:hello@biogi.com">hello@biogi.com</a>
+                <a href="mailto:hello@biogi.com">jilaann@sgbteam.id</a>
               </p>
             </div>
           </div>
@@ -168,15 +168,15 @@ const Contact = () => {
         </div>
         <iframe
           className="map-iframe"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11661.278162829134!2d-76.16113884753138!3d43.0557465765357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3add89232d3%3A0x516c4febad79a023!2sNear%20Northeast%2C%20Syracuse%2C%20NY%2013203%2C%20USA!5e0!3m2!1sen!2sin!4v1704092010021!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.60965088359!2d107.56075451126449!3d-6.903271950848766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146a1f93d3e815b2!2sBandung%2C%20Bandung%20City%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1741832739292!5m2!1sen!2sid"
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
         <div className="footer">
-          © 2024 | All rights reserved by
+          © 2025 | All rights reserved by
           <span>
-            <a href="https://1.envato.market/website-portfolio">The_Krishna</a>
+            <a href="https://www.linkedin.com/in/zhilanazmi">Zhillan Azmi</a>
           </span>
         </div>
       </section>

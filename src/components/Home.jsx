@@ -159,7 +159,7 @@ const Home = () => {
           </h1>
           <h2 className="designer fade_up">{firstTexts[firstTextIndex]}</h2>
           <div className="profile-media-icons-main fade_up">
-            <Link to="mailto:hello@biogi.com" className="profile-media-icons">
+            <Link to="mailto:jilaann@sgbteam.id" className="profile-media-icons">
               <img src={EmailSvg} alt="email-svg" />
             </Link>
             <Link to="https://www.behance.net" className="profile-media-icons">
@@ -350,7 +350,7 @@ const Home = () => {
               </div>
             </div>
             <div className="col-xxl-6 col-lg-6 position-relative">
-              <img className="flower" src={FlowerImg} alt="flower" />
+              <img className="flower" src={FullstackLogo} alt="flower" />
               <img
                 className="circular-img"
                 src={FullstackLogo}
@@ -480,7 +480,7 @@ const Home = () => {
         <Pricing />
         {/* <!-- ====================================== Section Pricing ===================================== --> */}
         {/* <!-- ====================================== Section Blogs ===================================== --> */}
-        <Blog />
+        {/* <Blog /> */}
         {/* <!-- ====================================== Section Blogs ===================================== --> */}
         {/* <!-- ====================================== Section Contact ===================================== --> */}
         <Contact />
