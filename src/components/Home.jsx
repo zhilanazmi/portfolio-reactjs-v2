@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
 import ProfileImg from "../assets/images/profile-img.png";
 import EmailSvg from "../assets/images/svg/email-svg.svg";
-import BehanceSvg from "../assets/images/svg/behance-svg.svg";
-import DribleSvg from "../assets/images/svg/drribale-svg.svg";
-import MediumSvg from "../assets/images/svg/medium-svg.svg";
+import InstagramSvg from "../assets/images/svg/Instagram.svg";
+import LinkedInSvg from "../assets/images/svg/LinkedIn.svg";
+import GitHubSvg from "../assets/images/svg/GitHub.svg";
 import HomeSvg from "../assets/images/svg/home-svg.svg";
 import AboutSvg from "../assets/images/svg/about-svg.svg";
 import ResumeSvg from "../assets/images/svg/resume-svg.svg";
@@ -159,17 +159,17 @@ const Home = () => {
           </h1>
           <h2 className="designer fade_up">{firstTexts[firstTextIndex]}</h2>
           <div className="profile-media-icons-main fade_up">
-            <Link to="mailto:jilaann@sgbteam.id" className="profile-media-icons">
+            <Link to="mailto:zhilannazmi@gmail.cmo" className="profile-media-icons">
               <img src={EmailSvg} alt="email-svg" />
             </Link>
-            <Link to="https://www.behance.net" className="profile-media-icons">
-              <img src={BehanceSvg} alt="behance-svg" />
+            <Link to="https://www.linkedin.com/in/zhilanazmi/" className="profile-media-icons">
+              <img src={LinkedInSvg} alt="linkedin-svg" />
             </Link>
-            <Link to="https://dribbble.com" className="profile-media-icons">
-              <img src={DribleSvg} alt="drribale-svg" />
+            <Link to="https://instagram.com/zhilanazmi" className="profile-media-icons">
+              <img src={InstagramSvg} alt="instagram-svg" />
             </Link>
-            <Link to="https://medium.com" className="profile-media-icons">
-              <img src={MediumSvg} alt="medium-svg" />
+            <Link to="https://github.com/zhilanazmi" className="profile-media-icons">
+              <img src={GitHubSvg} alt="github-svg" />
             </Link>
           </div>
         </div>

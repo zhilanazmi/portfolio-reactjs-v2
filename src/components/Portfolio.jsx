@@ -112,10 +112,10 @@ const Portfolio = () => {
               <img src={ContentImg} alt="content-img" />
               <div className="overlay">
                 <img src={ContentSvg} alt="vimeo-svg" className="vimeo-icon" />
-                <p className="overlay-text">Corporate Branding</p>
+                <p className="overlay-text">Plastic Guardian</p>
               </div>
             </div>
-            <p className="Corporate zoom_in">Corporate Branding</p>
+            <p className="Corporate zoom_in">Plastic Guardian</p>
             <p className="Corporate-sub zoom_in">CONTENT</p>
             <div className="second-row-portfolio youtube zoom_in">
               <div>

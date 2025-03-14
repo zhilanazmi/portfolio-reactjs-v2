@@ -43,33 +43,30 @@ const Popup = ({ isVisible, onClose }) => {
             </g>
           </svg>{" "}
         </a>
-        <p className="corpo">Corporate Branding</p>
-        <p className="corpo-sub">CONTENT</p>
+        <p className="corpo">Plastic Guardian</p>
+        <p className="corpo-sub">Landing Page Website</p>
         <div className="corporate_main">
           <div className="cuberto_main">
             <p className="created_by">Created By:</p>
-            <p className="cuberto">Cuberto</p>
+            <p className="cuberto">Zhillan Azmi</p>
           </div>
           <div className="cuberto_main">
             <p className="created_by">Date:</p>
-            <p className="cuberto">20/12/2024</p>
+            <p className="cuberto">20/09/2023</p>
           </div>
           <div className="cuberto_main">
             <p className="created_by">Client:</p>
-            <p className="cuberto">Rayan Patrick</p>
+            <p className="cuberto">Plastic Guardian</p>
           </div>
           <div className="cuberto_main">
             <p className="created_by">Categories:</p>
-            <p className="cuberto">Content</p>
+            <p className="cuberto">Landing Page</p>
           </div>
         </div>
         <p className="Ornare">
-          Ornare sagittis blandit imperdiet cursus risus. Amet proin cras mattis
-          arcu pellentesque lorem sagittis. Mauris facilisis id est duis eget
-          sed cras curabitur faucibus. Lectus eu eu quis amet. Ultrices morbi
-          bibendum risus nisi sapien id ut egestas. Et fermentum fermentum
-          faucibus sed quis in eget. Quis cursus eu in sit cras sit elementum
-          nibh sit.
+        I manage and optimize the Landing Page for responsiveness across devices, 
+        provide support and maintenance for web applications, integrate user experience-enhancing features, 
+        implement visually appealing designs, and use Git for version control and repository management.
         </p>
         <div className="pop-up-img-section2">
           <img src={PopUpImg2} alt="pop-up-img2" />

@@ -206,13 +206,13 @@ const Resume = () => {
       {/* <!-- ====================================== Section Coding Skill End ===================================== --> */}
       {/* <!-- ====================================== Section Design Skill ===================================== --> */}
       <section className="design-skill-section">
-        <div className="heading-container">
+        {/* <div className="heading-container">
           <h2 className="section-heading-text design-skill-text fade_up">
             Design Skills.
           </h2>
           <div className="line"></div>
-        </div>
-        <div className="design-skill-sub-section">
+        </div> */}
+        {/* <div className="design-skill-sub-section">
           <div className="design-skills-img-main flip_up">
             <img src={FigmaImg} alt="figma-img" />
             <div className="skill-counter-main">
@@ -249,7 +249,7 @@ const Resume = () => {
               <p>INVISION</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
       {/* <!-- ====================================== Section Coding Skill End ===================================== --> */}
       {/* <!-- ====================================== Section Award ===================================== --> */}
