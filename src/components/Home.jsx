@@ -217,7 +217,7 @@ const Home = () => {
                 Resume
               </a>
             </li>
-            <li
+            {/* <li
               className={`active-menu-action ${
                 activeLink === "services" ? "active" : ""
               }`}
@@ -230,7 +230,7 @@ const Home = () => {
                 <img src={ServicesSvg} alt="home-svg" />
                 Services
               </a>
-            </li>
+            </li> */}
             <li
               className={`active-menu-action ${
                 activeLink === "portfolio" ? "active" : ""
@@ -245,7 +245,7 @@ const Home = () => {
                 Portfolio
               </a>
             </li>
-            <li
+            {/* <li
               className={`active-menu-action ${
                 activeLink === "pricing" ? "active" : ""
               }`}
@@ -258,8 +258,8 @@ const Home = () => {
                 <img src={PricingSvg} alt="home-svg" />
                 Pricing
               </a>
-            </li>
-            <li
+            </li> */}
+            {/* <li
               className={`active-menu-action ${
                 activeLink === "blog" ? "active" : ""
               }`}
@@ -272,7 +272,7 @@ const Home = () => {
                 <img src={BlogSvg} alt="home-svg" />
                 Blog
               </a>
-            </li>
+            </li> */}
             <li
               className={`active-menu-action ${
                 activeLink === "contact" ? "active" : ""
@@ -471,7 +471,7 @@ const Home = () => {
         <Resume />
         {/* <!-- ====================================== Section Education Experience End ===================================== --> */}
         {/* <!-- ====================================== Section Services ===================================== --> */}
-        <Services />
+        {/* <Services /> */}
         {/* <!-- ====================================== Section Services ===================================== --> */}
         {/* <!-- ====================================== Section Portfolio ===================================== --> */}
         <Portfolio />

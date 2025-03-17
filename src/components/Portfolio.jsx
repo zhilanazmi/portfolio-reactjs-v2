@@ -117,7 +117,7 @@ const Portfolio = () => {
             </div>
             <p className="Corporate zoom_in">Plastic Guardian</p>
             <p className="Corporate-sub zoom_in">CONTENT</p>
-            <div className="second-row-portfolio youtube zoom_in">
+            {/* <div className="second-row-portfolio youtube zoom_in">
               <div>
                 <div
                   className="image-container"
@@ -140,7 +140,7 @@ const Portfolio = () => {
               </div>
               <p className="Corporate">Food App Development</p>
               <p className="Corporate-sub">youtube video</p>
-            </div>
+            </div> */}
           </div>
           <div>
             <div>
@@ -166,7 +166,7 @@ const Portfolio = () => {
               <div
                 className="second-row-portfolio soundcloud zoom_in"
                 onClick={handleOpenModalSound}
-              >
+                >
                 <div className="image-container">
                   <img src={SoundCloudImg} alt="sound-cloud-img" />
                   <div className="overlay">
