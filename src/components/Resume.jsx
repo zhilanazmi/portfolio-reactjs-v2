@@ -1,9 +1,4 @@
 import React, { useEffect, useRef } from "react";
-import FigmaImg from "../assets/images/figma-img.png";
-import PhotoShopImg from "../assets/images/photoshop-img.png";
-import AdobeImg from "../assets/images/adobe-xd-img.png";
-import SketchImg from "../assets/images/sktech-img.png";
-import InvisionImg from "../assets/images/invision-img.png";
 import WinnerAward from "../assets/images/winner-award.png";
 import WinnerAward2 from "../assets/images/winner-award2.png";
 import WinnerAward3 from "../assets/images/winner-award3.png";
@@ -206,50 +201,6 @@ const Resume = () => {
       {/* <!-- ====================================== Section Coding Skill End ===================================== --> */}
       {/* <!-- ====================================== Section Design Skill ===================================== --> */}
       <section className="design-skill-section">
-        {/* <div className="heading-container">
-          <h2 className="section-heading-text design-skill-text fade_up">
-            Design Skills.
-          </h2>
-          <div className="line"></div>
-        </div> */}
-        {/* <div className="design-skill-sub-section">
-          <div className="design-skills-img-main flip_up">
-            <img src={FigmaImg} alt="figma-img" />
-            <div className="skill-counter-main">
-              <p>94%</p>
-              <p>HTML, CSS</p>
-            </div>
-          </div>
-          <div className="design-skills-img-main photoshop flip_up">
-            <img src={PhotoShopImg} alt="photoshop-img" />
-            <div className="skill-counter-main photoshop-text">
-              <p>98%</p>
-              <p>PHOTOSHOP</p>
-            </div>
-          </div>
-          <div className="design-skills-img-main adobe-xd flip_up">
-            <img src={AdobeImg} alt="adobe-xd-img" />
-            <div className="skill-counter-main adobe-xd-text">
-              <p>88%</p>
-              <p>ADOBE XD</p>
-            </div>
-          </div>
-
-          <div className="design-skills-img-main sketch flip_up">
-            <img src={SketchImg} alt="sktech-img" />
-            <div className="skill-counter-main sketch-text">
-              <p>85%</p>
-              <p>SKETCH</p>
-            </div>
-          </div>
-          <div className="design-skills-img-main invision flip_up">
-            <img src={InvisionImg} alt="invision-img" />
-            <div className="skill-counter-main invision-text">
-              <p>89%</p>
-              <p>INVISION</p>
-            </div>
-          </div>
-        </div> */}
       </section>
       {/* <!-- ====================================== Section Coding Skill End ===================================== --> */}
       {/* <!-- ====================================== Section Award ===================================== --> */}
