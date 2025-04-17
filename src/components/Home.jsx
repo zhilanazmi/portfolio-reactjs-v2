@@ -26,7 +26,6 @@ import FullstackLogo from "../assets/images/Fullstack.png";
 import AboutSection from "./About";
 import Resume from "./Resume";
 import Portfolio from "./Portfolio";
-import Pricing from "./Pricing";
 import Contact from "./Contact";
 import $ from "jquery";
 import CV from "../assets/pdf/olivia_resume.pdf";
@@ -236,34 +235,6 @@ const Home = () => {
                 Portfolio
               </a>
             </li>
-            {/* <li
-              className={`active-menu-action ${
-                activeLink === "pricing" ? "active" : ""
-              }`}
-            >
-              <a
-                className="fade_right"
-                href="#pricing"
-                onClick={(e) => handleClick(e, "pricing")}
-              >
-                <img src={PricingSvg} alt="home-svg" />
-                Pricing
-              </a>
-            </li> */}
-            {/* <li
-              className={`active-menu-action ${
-                activeLink === "blog" ? "active" : ""
-              }`}
-            >
-              <a
-                className="fade_right"
-                href="#blog"
-                onClick={(e) => handleClick(e, "blog")}
-              >
-                <img src={BlogSvg} alt="home-svg" />
-                Blog
-              </a>
-            </li> */}
             <li
               className={`active-menu-action ${
                 activeLink === "contact" ? "active" : ""
@@ -467,8 +438,6 @@ const Home = () => {
         {/* <!-- ====================================== Section Portfolio ===================================== --> */}
         <Portfolio />
         {/* <!-- ====================================== Section Portfolio ===================================== --> */}
-        {/* <!-- ====================================== Section Pricing ===================================== --> */}
-        <Pricing />
         {/* <!-- ====================================== Section Pricing ===================================== --> */}
         {/* <!-- ====================================== Section Blogs ===================================== --> */}
         {/* <Blog /> */}

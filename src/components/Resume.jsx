@@ -6,12 +6,12 @@ import WinnerAward4 from "../assets/images/winner-award4.png";
 
 const Resume = () => {
   const colors = [
-    "#BCE70C",
-    "#FF759C",
-    "#00CC97",
-    "#FFDB59",
-    "#6F39FD",
-    "#FF7D61",
+    // "#BCE70C",
+    // "#FF759C",
+    // "#00CC97",
+    // "#FFDB59",
+    // "#6F39FD",
+    // "#FF7D61",
   ];
   const progressRef = useRef(null);
   const hasAnimated = useRef(false); // Track if the animation has already run

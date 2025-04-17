@@ -18,7 +18,6 @@ import Galleryimg5 from "../assets/images/gallery/gallery-img5.jpg";
 import Galleryimg6 from "../assets/images/gallery/gallery-img6.jpg";
 import Galleryimg7 from "../assets/images/gallery/gallery-img7.jpg";
 import Galleryimg8 from "../assets/images/gallery/gallery-img8.jpg";
-import Fancybox from "./FancyBox";
 import Popup from "./PopUp";
 import { Link } from "react-router-dom";
 
@@ -44,17 +43,6 @@ const Portfolio = () => {
 
   const handleCloseModal = () => {
     setIsModalOpen(false);
-  };
-
-  // Youtube Modal
-  const [isModalOpenYoutube, setisModalOpenYoutube] = useState(false);
-
-  const handleOpenModalYoutube = () => {
-    setisModalOpenYoutube(true);
-  };
-
-  const handleCloseModalYoutube = () => {
-    setisModalOpenYoutube(false);
   };
 
   // Soundcloud Modal
@@ -113,30 +101,6 @@ const Portfolio = () => {
             </div>
             <p className="Corporate zoom_in">Plastic Guardian</p>
             <p className="Corporate-sub zoom_in">CONTENT</p>
-            {/* <div className="second-row-portfolio youtube zoom_in">
-              <div>
-                <div
-                  className="image-container"
-                  onClick={handleOpenModalYoutube}
-                >
-                  <img src={YoutubeVideoImg} alt="youtube-video-img" />
-                  <div className="overlay">
-                    <img
-                      src={YoutubeSvg}
-                      alt="youtube-svg"
-                      className="vimeo-icon"
-                    />
-                    <p className="overlay-text">Food App Development</p>
-                  </div>
-                </div>
-                <YouTubeModal
-                  isOpen={isModalOpenYoutube}
-                  onRequestClose={handleCloseModalYoutube}
-                />
-              </div>
-              <p className="Corporate">Food App Development</p>
-              <p className="Corporate-sub">youtube video</p>
-            </div> */}
           </div>
           <div>
             <div>
