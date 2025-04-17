@@ -1,5 +1,4 @@
 import React from "react";
-import CloseSvg from "../assets/images/svg/colan-icon.svg";
 import PopUpImg from "../assets/images/pop-up-img1.jpg";
 import PopUpImg2 from "../assets/images/pop-up-img2.jpg";
 
@@ -8,7 +7,7 @@ const Popup = ({ isVisible, onClose }) => {
     <div className={`popup-wrap ${isVisible ? "visible" : ""}`}>
       <div className="popup-box transform-in">
         <img className="pop-up-img1" src={PopUpImg} alt="pop-up-img1" />
-        <a className="close-btn popup-close" href="#" onClick={onClose}>
+        <a className="close-btn popup-close" href="javascript:void(0)" onClick={onClose}>
           <svg
             width="40px"
             height="40px"

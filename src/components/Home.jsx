@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import EmailSvg from "../assets/images/svg/email-svg.svg";
 import InstagramSvg from "../assets/images/svg/Instagram.svg";
 import LinkedInSvg from "../assets/images/svg/LinkedIn.svg";
@@ -49,7 +49,7 @@ const Home = () => {
     }, intervalTime * 3);
 
     return () => clearTimeout(firstTextTimeout);
-  }, [firstTextIndex]);
+  }, [firstTextIndex, firstTexts.length, intervalTime]);
 
   useEffect(() => {
     const secondTextTimeout = setTimeout(() => {
@@ -57,7 +57,7 @@ const Home = () => {
     }, intervalTime * 3);
 
     return () => clearTimeout(secondTextTimeout);
-  }, [secondTextIndex]);
+  }, [secondTextIndex, secondTexts.length, intervalTime]);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -66,7 +66,7 @@ const Home = () => {
     }, intervalTime * 7);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [firstTexts.length, secondTexts.length, intervalTime]);
 
   // Logo marquee
   useEffect(() => {

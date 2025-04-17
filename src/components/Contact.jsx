@@ -94,7 +94,7 @@ const Contact = () => {
             <div>
               <p className="contact-email-text">PHONE</p>
               <p className="contact-email">
-                <a href="#">+62 8999 446 116</a>
+                <a href="tel:+6289994461116">+62 8999 446 116</a>
               </p>  
             </div>
           </div>
@@ -162,12 +162,13 @@ const Contact = () => {
           </div>
         </div>
         <div className="wrapper blog-btn">
-          <a className="btn-hover" href="#">
+          <a className="btn-hover" href="javascript:void(0)" onClick={(e) => e.preventDefault()}>
             Submit Now
           </a>
         </div>
         <iframe
           className="map-iframe"
+          title="Bandung Location Map"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.60965088359!2d107.56075451126449!3d-6.903271950848766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146a1f93d3e815b2!2sBandung%2C%20Bandung%20City%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1741832739292!5m2!1sen!2sid"
           allowFullScreen=""
           loading="lazy"
