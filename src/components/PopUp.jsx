@@ -7,7 +7,11 @@ const Popup = ({ isVisible, onClose }) => {
     <div className={`popup-wrap ${isVisible ? "visible" : ""}`}>
       <div className="popup-box transform-in">
         <img className="pop-up-img1" src={PopUpImg} alt="pop-up-img1" />
-        <a className="close-btn popup-close" href="javascript:void(0)" onClick={onClose}>
+        <button 
+          className="close-btn popup-close" 
+          onClick={onClose}
+          style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}
+        >
           <svg
             width="40px"
             height="40px"
@@ -41,7 +45,7 @@ const Popup = ({ isVisible, onClose }) => {
               ></path>
             </g>
           </svg>{" "}
-        </a>
+        </button>
         <p className="corpo">Plastic Guardian</p>
         <p className="corpo-sub">Landing Page Website</p>
         <div className="corporate_main">

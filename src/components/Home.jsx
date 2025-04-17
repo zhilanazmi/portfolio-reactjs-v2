@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState } from "react";
 import EmailSvg from "../assets/images/svg/email-svg.svg";
 import InstagramSvg from "../assets/images/svg/Instagram.svg";
 import LinkedInSvg from "../assets/images/svg/LinkedIn.svg";
