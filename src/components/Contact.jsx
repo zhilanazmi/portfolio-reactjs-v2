@@ -162,9 +162,21 @@ const Contact = () => {
           </div>
         </div>
         <div className="wrapper blog-btn">
-          <a className="btn-hover" href="javascript:void(0)" onClick={(e) => e.preventDefault()}>
+          <button 
+            className="btn-hover" 
+            onClick={() => {/* Handle submission logic here */}}
+            style={{ 
+              border: 'none', 
+              background: 'inherit', 
+              cursor: 'pointer',
+              fontFamily: 'inherit',
+              fontSize: 'inherit',
+              padding: 'inherit', 
+              display: 'inline-block' 
+            }}
+          >
             Submit Now
-          </a>
+          </button>
         </div>
         <iframe
           className="map-iframe"
