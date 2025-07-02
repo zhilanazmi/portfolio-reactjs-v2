@@ -3,13 +3,9 @@ import ContentSvg from "../assets/images/svg/content-svg.svg";
 import ContentImg from "../assets/images/content-img.png";
 import VimeoVideoImg from "../assets/images/vimeo-video-img.png";
 import VimeoSvg from "../assets/images/svg/vimeo-svg.svg";
-import SoundCloudImg from "../assets/images/sound-cloud-img.png";
-import SoundCloudSvg from "../assets/images/svg/sound-cloud.svg";
 import GalleryImg from "../assets/images/gallery-img.png";
 import GallerySvg from "../assets/images/svg/gallery-svg.svg";
-import ContentImg2 from "../assets/images/content-img2.png";
 import VimeoModal from "./VimeoModal";
-import SoundCloudModal from "./SoundCloudVideo";
 import Galleryimg1 from "../assets/images/gallery/gallery-img1.jpg";
 import Galleryimg2 from "../assets/images/gallery/gallery-img2.jpg";
 import Galleryimg3 from "../assets/images/gallery/gallery-img3.jpg";
@@ -45,16 +41,7 @@ const Portfolio = () => {
     setIsModalOpen(false);
   };
 
-  // Soundcloud Modal
-  const [isModalOpenSound, setIsModalOpenSound] = useState(false);
-
-  const handleOpenModalSound = () => {
-    setIsModalOpenSound(true);
-  };
-
-  const handleCloseModalSound = () => {
-    setIsModalOpenSound(false);
-  };
+  // Soundcloud Modal section removed
 
   useEffect(() => {
     // Function to initialize fancybox for the gallery
