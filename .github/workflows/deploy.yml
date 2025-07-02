@@ -29,5 +29,5 @@ jobs:
         REMOTE_HOST: ${{ secrets.VPS_HOST }}
         REMOTE_USER: ${{ secrets.VPS_USERNAME }}
         SOURCE: "build/"
-        TARGET: "/var/www/zhilanazmi.com"
+        TARGET: "/var/www/html/zhilanazmi.com/portfolio-reactjs-v2"
         ARGS: "-avz --delete"
