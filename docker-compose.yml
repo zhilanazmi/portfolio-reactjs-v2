@@ -1,19 +1,16 @@
 version: '3.8'
 
 services:
+  # Nama service kita, bisa apa saja
   portfolio:
+    # Memberitahu Docker Compose untuk membangun image dari Dockerfile di direktori saat ini (.)
     build: .
-    ports:
-      - "80:80"
-    restart: unless-stopped
+    # Memberi nama yang mudah dikenali pada container yang berjalan
     container_name: portfolio-reactjs
-    environment:
-      - NODE_ENV=production
-    
-    # Optional: Add health check
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:80"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
-      start_period: 30s 
+    # Memetakan port di mesin Anda (VPS) ke port di dalam container
+    # Format: [PORT_DI_VPS]:[PORT_DI_CONTAINER]
+    # Akses aplikasi melalui http://[IP_VPS]:8080
+    ports:
+      - "8080:80"
+    # Kebijakan restart: container akan otomatis menyala kembali jika crash atau VPS reboot
+    restart: unless-stopped

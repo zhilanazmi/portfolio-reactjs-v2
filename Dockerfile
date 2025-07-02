@@ -1,32 +1,40 @@
-# Stage 1: Build the React application
-FROM node:18-alpine AS build
+# Tahap 1: Build React App
+# Menggunakan image Node.js yang ringan (alpine) sebagai basis
+FROM node:18-alpine as build
 
-# Set working directory
+# Menentukan direktori kerja di dalam container
 WORKDIR /app
 
-# Copy package files
-COPY package*.json ./
+# Salin package.json dan package-lock.json terlebih dahulu
+# Ini memanfaatkan cache Docker, sehingga 'npm install' hanya berjalan jika ada perubahan dependensi
+COPY package.json ./
+COPY package-lock.json ./
 
-# Install dependencies
-RUN npm ci --only=production
+# Install semua dependensi proyek
+RUN npm install
 
-# Copy source code
+# Salin sisa file proyek ke dalam container
 COPY . .
 
-# Build the application
+# Build aplikasi React untuk production
+# Hasil build akan ada di folder /app/build
 RUN npm run build
 
-# Stage 2: Serve the application with nginx
-FROM nginx:alpine
+# ---
 
-# Copy the build output to nginx html directory
+# Tahap 2: Serve dengan Nginx
+# Menggunakan image Nginx yang ringan (alpine)
+FROM nginx:stable-alpine
+
+# Salin hasil build dari tahap sebelumnya ('build') ke direktori web root Nginx
 COPY --from=build /app/build /usr/share/nginx/html
 
-# Copy custom nginx configuration if needed
-COPY nginx.conf /etc/nginx/nginx.conf
+# Salin file konfigurasi Nginx kustom kita
+# Ini akan menimpa konfigurasi default Nginx
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-# Expose port 80
+# Memberitahu Docker bahwa container akan berjalan di port 80
 EXPOSE 80
 
-# Start nginx
-CMD ["nginx", "-g", "daemon off;"] 
+# Perintah untuk menjalankan Nginx saat container dimulai
+CMD ["nginx", "-g", "daemon off;"]
