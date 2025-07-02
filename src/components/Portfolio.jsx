@@ -122,30 +122,6 @@ const Portfolio = () => {
             </div>
             <p className="Corporate zoom_in">Crypto App UI Design</p>
             <p className="Corporate-sub zoom_in">vimeo video</p>
-            <div>
-              <div
-                className="second-row-portfolio soundcloud zoom_in"
-                onClick={handleOpenModalSound}
-                >
-                <div className="image-container">
-                  <img src={SoundCloudImg} alt="sound-cloud-img" />
-                  <div className="overlay">
-                    <img
-                      src={SoundCloudSvg}
-                      alt="sound-cloud"
-                      className="vimeo-icon"
-                    />
-                    <p className="overlay-text">Pocket FM Radio</p>
-                  </div>
-                </div>
-                <p className="Corporate">Pocket FM Radio</p>
-                <p className="Corporate-sub">sound cloud</p>
-              </div>
-              <SoundCloudModal
-                isOpen={isModalOpenSound}
-                onRequestClose={handleCloseModalSound}
-              />
-            </div>
           </div>
           <div className="gallery-bank-section">
             <div className="zoom_in">
@@ -164,24 +140,6 @@ const Portfolio = () => {
               </div>
               <p className="Corporate">City 3D View</p>
               <p className="Corporate-sub">gallery</p>
-            </div>
-            <div
-              className="second-row-portfolio popup-btn zoom_in"
-              onClick={handlePopupOpen}
-            >
-              <div className="image-container">
-                <img src={ContentImg2} alt="content-img2" />
-                <div className="overlay">
-                  <img
-                    src={ContentSvg}
-                    alt="content-svg"
-                    className="vimeo-icon"
-                  />
-                  <p className="overlay-text">Bank App Development</p>
-                </div>
-              </div>
-              <p className="Corporate">Bank App Development</p>
-              <p className="Corporate-sub">content</p>
             </div>
           </div>
         </div>
