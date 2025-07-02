@@ -99,68 +99,6 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="form-container">
-          <div className="form">
-            <label htmlFor="name" className="form__label">
-              NAME
-            </label>
-            <input
-              type="text"
-              className="form__input"
-              placeholder="Your name"
-              id="name"
-              required
-              autoComplete="off"
-              value={inputState.name}
-              onChange={handleChange}
-            />
-          </div>
-          <div className="form">
-            <label htmlFor="email" className="form__label">
-              EMAIL
-            </label>
-            <input
-              type="email"
-              className="form__input"
-              placeholder="Your email"
-              id="email"
-              required
-              autoComplete="off"
-              value={inputState.email}
-              onChange={handleChange}
-            />
-          </div>
-          <div className="form subject-input-main">
-            <label htmlFor="subject" className="form__label">
-              SUBJECT
-            </label>
-            <input
-              type="text"
-              className="form__input"
-              placeholder="Your subject"
-              id="subject"
-              required
-              autoComplete="off"
-              value={inputState.subject}
-              onChange={handleChange}
-            />
-          </div>
-          <div className="form">
-            <label htmlFor="message" className="form__label">
-              MESSAGE
-            </label>
-            <input
-              type="text"
-              className="form__input"
-              placeholder="Write your text..."
-              id="message"
-              required
-              autoComplete="off"
-              value={inputState.message}
-              onChange={handleChange}
-            />
-          </div>
-        </div>
         <div className="wrapper blog-btn">
           <button 
             className="btn-hover" 
