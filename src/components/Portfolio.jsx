@@ -99,7 +99,7 @@ const Portfolio = () => {
                 <img src={VimeoVideoImg} alt="vimeo-video-img" />
                 <div className="overlay">
                   <img src={VimeoSvg} alt="vimeo-svg" className="vimeo-icon" />
-                  <p className="overlay-text">Crypto App UI Design</p>
+                  <p className="overlay-text">Crypto UI Design</p>
                 </div>
               </div>
               <VimeoModal
@@ -107,7 +107,7 @@ const Portfolio = () => {
                 onRequestClose={handleCloseModal}
               />
             </div>
-            <p className="Corporate zoom_in">Crypto App UI Design</p>
+            <p className="Corporate zoom_in">Crypto UI Design</p>
             <p className="Corporate-sub zoom_in">vimeo video</p>
           </div>
           <div className="gallery-bank-section">
