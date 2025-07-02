@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  portfolio:
+    build: .
+    ports:
+      - "80:80"
+    restart: unless-stopped
+    container_name: portfolio-reactjs
+    environment:
+      - NODE_ENV=production
+    
+    # Optional: Add health check
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:80"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s 
