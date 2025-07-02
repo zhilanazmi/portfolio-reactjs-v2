@@ -203,7 +203,7 @@ const Resume = () => {
                         src={WinnerAward3}
                         alt="winner-award3"
                       />
-                      <p className="award-yer">2023</p>
+                      <p className="award-yer">2025</p>
                     </div>
                     <p className="award-interior">Networking Essentials
                     </p>
