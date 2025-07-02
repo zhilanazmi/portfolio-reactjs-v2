@@ -1,12 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 
 const Contact = () => {
-  const [inputState, setInputState] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
-  });
 
   useEffect(() => {
     const inputs = document.querySelectorAll("input");
@@ -33,13 +27,7 @@ const Contact = () => {
     };
   }, []);
 
-  const handleChange = (e) => {
-    const { id, value } = e.target;
-    setInputState((prevState) => ({
-      ...prevState,
-      [id]: value,
-    }));
-  };
+  // Form handling code removed
   return (
     <>
       {/* <!-- ====================================== Section Contact ===================================== --> */}
